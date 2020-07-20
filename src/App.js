@@ -10,6 +10,7 @@ import Navigation from "./Components/Navigation";
 import NotFoundErrorPage from "./Components/NotFoundErrorPage";
 import CookieConsent from "./Components/CookieConsent";
 import Tracking from "./Components/Tracking";
+import { ContentMigration } from "./Components/ContentMigration";
 
 export const helmetContext = {};
 
@@ -28,6 +29,7 @@ export default function App() {
           <CookieConsent />
           <Tracking />
           <Intercom />
+          <ContentMigration />
         </div>
       </HelmetProvider>
     </ErrorBoundary>

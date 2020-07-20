@@ -1,4 +1,5 @@
 const defaultPageAttributes = {
+  webReferences: "referencelist",
   body: ["widgetlist", { only: "SectionWidget" }],
   navigationBackgroundImage: [
     "reference",

@@ -11,6 +11,8 @@
     "private": true
   },
   "dependencies": {
+    "@material-ui/core": "^4.10.1",
+    "@material-ui/lab": "^4.0.0-alpha.55",
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",

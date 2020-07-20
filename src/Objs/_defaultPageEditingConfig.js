@@ -40,6 +40,7 @@ export const defaultPageInitialContent = {
 };
 
 export const defaultPageProperties = [
+  "webReferences",
   "title",
   "navigationHeight",
   "navigationBackgroundImage",
